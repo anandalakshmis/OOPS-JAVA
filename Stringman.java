@@ -16,5 +16,8 @@ System.out.println("append : "+sb);
 System.out.println("replace "+str1.replace("h","@"));
 System.out.println("indexof "+str1.indexOf("e"));
 System.out.println("reverse" +"   " +sb.reverse());
+  System.out.println("Enter another String to be Concatenated to the previous one: ");
+    String b=sc.next();
+    System.out.println("The Concatenated Strings are : "+str1.concat(b));
 }
 }
